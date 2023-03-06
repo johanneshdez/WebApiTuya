@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiTuya", "WebApiTuya\WebApiTuya.csproj", "{20A70C3B-6DE9-40C5-AA33-28D1EF4424A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{607D450B-5D52-4673-AB42-E24CBAF658EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplication", "Aplication", "{01CE7354-AA03-44DF-BECF-3B826C731398}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{089AA69D-D6E6-40AA-9CC9-4DB0DAAB818A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTuya.Domain", "TestTuya.Domain\TestTuya.Domain.csproj", "{529ED6B0-DD6C-4705-9B65-74FAD04C85CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{0AA117C3-F87A-4F28-A535-3CE5E5FE2D8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTuya.Infraestructure", "TestTuya.Infraestructure\TestTuya.Infraestructure.csproj", "{A11281C1-E48C-480B-9494-5819FDE5C0F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceLogistica", "ServiceLogistica", "{241902E4-E125-417F-947F-A15DD0ACC471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTuya.ServicioLogistica", "ServicioLogistica\TestTuya.ServicioLogistica.csproj", "{4D09BE9F-12B9-4232-BA61-985DD892C6E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20A70C3B-6DE9-40C5-AA33-28D1EF4424A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A70C3B-6DE9-40C5-AA33-28D1EF4424A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A70C3B-6DE9-40C5-AA33-28D1EF4424A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A70C3B-6DE9-40C5-AA33-28D1EF4424A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{529ED6B0-DD6C-4705-9B65-74FAD04C85CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529ED6B0-DD6C-4705-9B65-74FAD04C85CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529ED6B0-DD6C-4705-9B65-74FAD04C85CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529ED6B0-DD6C-4705-9B65-74FAD04C85CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A11281C1-E48C-480B-9494-5819FDE5C0F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11281C1-E48C-480B-9494-5819FDE5C0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11281C1-E48C-480B-9494-5819FDE5C0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11281C1-E48C-480B-9494-5819FDE5C0F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D09BE9F-12B9-4232-BA61-985DD892C6E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D09BE9F-12B9-4232-BA61-985DD892C6E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D09BE9F-12B9-4232-BA61-985DD892C6E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D09BE9F-12B9-4232-BA61-985DD892C6E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20A70C3B-6DE9-40C5-AA33-28D1EF4424A7} = {01CE7354-AA03-44DF-BECF-3B826C731398}
+		{01CE7354-AA03-44DF-BECF-3B826C731398} = {607D450B-5D52-4673-AB42-E24CBAF658EE}
+		{089AA69D-D6E6-40AA-9CC9-4DB0DAAB818A} = {607D450B-5D52-4673-AB42-E24CBAF658EE}
+		{529ED6B0-DD6C-4705-9B65-74FAD04C85CF} = {089AA69D-D6E6-40AA-9CC9-4DB0DAAB818A}
+		{0AA117C3-F87A-4F28-A535-3CE5E5FE2D8A} = {607D450B-5D52-4673-AB42-E24CBAF658EE}
+		{A11281C1-E48C-480B-9494-5819FDE5C0F0} = {0AA117C3-F87A-4F28-A535-3CE5E5FE2D8A}
+		{4D09BE9F-12B9-4232-BA61-985DD892C6E3} = {241902E4-E125-417F-947F-A15DD0ACC471}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FBDD244-AEA9-4E09-95F1-8C6D5E08F812}
+	EndGlobalSection
+EndGlobal
